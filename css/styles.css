@@ -55,7 +55,8 @@ img {
 /*==Logo==*/
 .logo {
   margin-right: 90px;
-
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -64,7 +65,6 @@ img {
   color: var(--accent-color);
 }
 .logo-header {
-  /*color: var(--accent-color);*/
   color: var(--primary-black-color);
 }
 .logo-footer {
@@ -72,8 +72,8 @@ img {
 }
 /*=END= Logo=*/
 .header{
-  padding-top: 25px;
-  padding-bottom: 25px;
+  
+  border: 1px solid #ECECEC;
 }
 .header-container{
   display: flex;
@@ -84,6 +84,7 @@ img {
 .navigation{
   display: flex;
   align-items: center;
+  
 }
 
 .nav-menu{
@@ -95,6 +96,8 @@ img {
   margin-right: 50px;
 }
 .menu-link {
+  padding-top: 32px;
+  padding-bottom: 32px; /*для увеличения площади кликабельности*/
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -114,18 +117,22 @@ img {
 .connect-header{
   display: flex;
   align-items: center;
+  
 }
 
 .connect-item:not(:last-child){
   margin-right: 50px;
 }
 
+
+
 .connect-link {
+  padding-top: 32px;
+  padding-bottom: 32px; /*для увеличения площади кликабельности*/
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--primary-text-color);
 }
 
@@ -287,8 +294,15 @@ border-radius: 0px 0px 4px 4px;
 /*==========Footer============*/
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-address{
+  padding-top: 20px;
 }
 .footer-address-map {
+  padding-bottom: 9px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -301,6 +315,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .footer-address-mail {
+  padding-bottom: 9px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -376,8 +391,8 @@ border-radius: 0px 0px 4px 4px;
 
 .exemples-card{
   padding: 20px 24px;
-  background-color: tomato;
-  
+  border: 1px solid #EEEEEE;
+  border-top: none;
 }
 .exemples-name {
   margin-bottom: 4px;
