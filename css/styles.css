@@ -189,15 +189,11 @@ img {
 .edvantages-item:not(:last-child){
   margin-right: 30px;
 }
+
 .edvantages-list{
   display: flex;
-  margin-left: -30px;
-  margin-bottom: -30px;
 }
 
-.edvantages-item{
-  flex-basis: calc((100% - 120px) / 4);
-}
 .edvantages-title {
   margin-bottom: 10px;
   font-weight: bold;
@@ -235,7 +231,7 @@ img {
 }
 
 .benefits-item{
-  flex-basis: calc((100% - 90) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
