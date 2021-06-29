@@ -55,8 +55,7 @@ img {
 /*==Logo==*/
 .logo {
   margin-right: 90px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -72,7 +71,8 @@ img {
 }
 /*=END= Logo=*/
 .header{
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
   border: 1px solid #ECECEC;
 }
 .header-container{
@@ -96,8 +96,8 @@ img {
   margin-right: 50px;
 }
 .menu-link {
-  padding-top: 32px;
-  padding-bottom: 32px; /*для увеличения площади кликабельности*/
+  padding-top: 20px;
+  padding-bottom: 20px; /*для увеличения площади кликабельности*/
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -127,8 +127,8 @@ img {
 
 
 .connect-link {
-  padding-top: 32px;
-  padding-bottom: 32px; /*для увеличения площади кликабельности*/
+  padding-top: 20px;
+  padding-bottom: 20px; /*для увеличения площади кликабельности*/
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -161,9 +161,10 @@ img {
   margin-bottom: 30px;
 }
 .hero-btn {
-  padding: 10px 30px;
+  padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
   font-family: inherit;
   font-weight: bold;
@@ -271,7 +272,6 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 50px;
 }
 .team-name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -282,12 +282,16 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .team-profession {
-  margin-bottom: 30px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.team-card{
+  padding: 30px 30px;
+  background-color: var(--primary-white-color);
 }
 /*==========END=== Team Наша команда======*/
 
@@ -299,23 +303,21 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .footer-address{
-  padding-top: 20px;
+  margin-top:  20px;
 }
 .footer-address-map {
-  padding-bottom: 9px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-.footer-address-map:hover,
-.footer-address-map:focus {
-  color: var(--accent-color);
+
+.footer-list{
+  margin-top: 9px;
 }
 
 .footer-address-mail {
-  padding-bottom: 9px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -352,10 +354,10 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .filter-item:not(:last-child){
-  margin-right: 30px;
+  margin-right: 8px;
 }
 .filter-btn {
-  padding: 5px 20px;
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -402,10 +404,7 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.exemples-name:hover,
-.exemples-name:focus {
-  color: var(--accent-color);
-}
+
 .exemples-work {
   font-weight: normal;
   font-size: 16px;
@@ -413,8 +412,5 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.exemples-work:hover,
-.exemples-work:focus {
-  color: var(--accent-color);
-}
+
 /*=====END====Exemples============*/
